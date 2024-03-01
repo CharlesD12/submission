@@ -55,7 +55,7 @@ max_date = all_df["order_purchase_timestamp"].max()
 with st.sidebar:
     # Menambahkan logo perusahaan dengan penyesuaian agar berada di tengah
     st.markdown(
-        f'<div style="display: flex; justify-content: center;"><img src="https://raw.githubusercontent.com/CharlesD12/E-commerce_public_dataset/main/logo.jpg" width="150"></div>',
+        f'<div style="display: flex; justify-content: center;"><img src="https://th.bing.com/th/id/OIG2..7VSEFqGiH3BkqH.cdWU?pid=ImgGn" width="150"></div>',
         unsafe_allow_html=True,
     )
 
