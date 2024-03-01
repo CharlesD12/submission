@@ -96,7 +96,7 @@ ax.set_ylabel(None)
 ax.set_xlabel(None)
 ax.tick_params(axis='y', labelsize=20)
 ax.tick_params(axis='x', labelsize=15)
-plt.show()
+st.pyplot(fig)
 
 #Demografi customer berdasarkan state
 fig, ax = plt.subplots(figsize=(20, 10))
@@ -113,7 +113,7 @@ ax.set_ylabel(None)
 ax.set_xlabel(None)
 ax.tick_params(axis='y', labelsize=20)
 ax.tick_params(axis='x', labelsize=15)
-plt.show()
+st.pyplot(fig)
 
 #Membuat RFM grafik
 st.subheader("Pelanggan terbaik berdasarkan RFM Parameters")
